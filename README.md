@@ -11,7 +11,6 @@ Mobil merupakan kendaraan bermotor yang digunakan untuk transportasi. Mobil berb
 
 ## Business Understanding
 
-
 ---
 
 ### Problem Statements
@@ -30,42 +29,26 @@ Kita diharuskan untuk memodelkan harga mobil dengan variabel independen yang ter
 
 ### Solution Statement
 
-Model regressi yang akan kita buat dapat memprediksi harga mobil yang pantas berdasarkan beberapa variable independen yang penting berdasarkan data yang ada. Hal ini dapat dicapai dengan beberapa algoritma, yaitu dengan linear regression, random flores, dan boosting algoritma.
+Model regressi yang akan kita buat dapat memprediksi harga mobil yang pantas berdasarkan beberapa variable independen yang penting berdasarkan data yang ada. Hal ini dapat dicapai dengan beberapa algoritma, yaitu dengan linear regression, random flores, dan boosting algoritma. Hasil algoritma tersebut dapat kita evaluasi dengan metric, seperti mean squared error(MSE) loss. Metric tersebut menghitung selisih kuadrat rata-rata antara nilai estimasi yang dihasilkan oleh algorithma dan nilai aktual pada data sebenarnya.
 
 ## Data Understanding
 
-Data yang kita akan lakukan modeling terdiri dari 26 variabel:
-* car_ID
-* symboling
-* CarName
-* fueltype
-* aspiration
-doornumber
-carbody
-drivewheel
-enginelocation
-wheelbase
-carlength
-carwidth
-carheight
-curbweight
-enginetype
-cylindernumber
-enginesize
-fuelsystem
-boreratio
-stroke
-compressionratio
-horsepower
-peakrpm
-citympg
-highwaympg
-price
-
 ---
 
-Informasi penting terkait data yang dipergunakan
+### Sumber Dataset
+Data berasal dari kaggle : https://www.kaggle.com/datasets/hellbuoy/car-price-prediction/data
+
+Data ini terdiri dari 205 row dengan 26 columns. 
+
 ### Variable pada Data set
+
+Data yang kita akan lakukan modeling terdiri dari 26 variabel: 
+car_ID, symboling, CarName, fueltype, aspiration, doornumber, carbody, drivewheel,
+enginelocation, wheelbase, carlength, carwidth, carheight, curbweight, enginetype,
+cylindernumber, enginesize, fuelsystem, boreratio, stroke, compressionratio, horsepower,
+peakrpm, citympg, highwaympg, price.
+
+Ada beberapa informasi yang akan kita gunakan, yaitu variable price, dimensi body mobil (carlength, carwidth, carheight, curbweight), fueltype, aspiration, doornumber, carbody, drivewheel, enginelocation, enginetype, cylindernumber, fuelsystem, wheelbase, overall_size, boreratio, hoursepower, citympg, highwaympg.
 
 ### Visualisasi data yang ada
 
