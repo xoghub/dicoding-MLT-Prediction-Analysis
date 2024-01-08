@@ -7,21 +7,60 @@
 ---
 
 ### Latarbelakang
-* Mobil
-* Variasi
-* Kebingungan pelanggan untuk membeli *the best mobil* untuk mereka
+Mobil merupakan kendaraan bermotor yang digunakan untuk transportasi. Mobil berbahan bakar bensin atau diesel beroda 4. Ada banyak variable yang dibutuhkan untuk menentukan harga untuk membuat konsumen dapat tertarik dengan mobil yang diproduksi oleh pabrikan mobil. Terutama, jika pabrikan yang memproduksi mobil berbeda lokasi yang cukup jauh dengan target pasar. Maka manajerial perusahaan harus mengetahui variable yang tepat dalam menentukan harga.
 
 ## Business Understanding
+
 
 ---
 
 ### Problem Statements
 
+Sebuah perusahaan mobil Cina, Geely Auto, bercita-cita untuk memasuki pasar AS dengan mendirikan unit produksi mereka di sana dan memproduksi mobil secara lokal untuk bersaing dengan rekan-rekan mereka di AS dan Eropa.
+
+Mereka telah mengontrak sebuah perusahaan konsultan mobil untuk memahami faktor-faktor yang menentukan harga mobil. Secara khusus, mereka ingin memahami faktor-faktor yang memengaruhi harga mobil di pasar Amerika, karena mungkin sangat berbeda dengan pasar Cina. 
+Perusahaan ingin tahu:
+ * Variabel mana yang signifikan dalam memprediksi harga mobil
+Seberapa baik variabel-variabel tersebut menggambarkan harga mobil
+* Berdasarkan berbagai survei pasar, perusahaan konsultan tersebut telah mengumpulkan sekumpulan data yang besar dari berbagai jenis mobil di pasar Amerika.
+
 ### Goals
+
+Kita diharuskan untuk memodelkan harga mobil dengan variabel independen yang tersedia. Ini akan digunakan oleh manajemen untuk memahami bagaimana tepatnya harga bervariasi dengan variabel independen. Dengan demikian, mereka dapat memanipulasi desain mobil, strategi bisnis, dan lain-lain untuk memenuhi tingkat harga tertentu. Lebih jauh lagi, model ini akan menjadi cara yang baik bagi manajemen untuk memahami dinamika harga di pasar yang baru.
 
 ### Solution Statement
 
+Model regressi yang akan kita buat dapat memprediksi harga mobil yang pantas berdasarkan beberapa variable independen yang penting berdasarkan data yang ada. Hal ini dapat dicapai dengan beberapa algoritma, yaitu dengan linear regression, random flores, dan boosting algoritma.
+
 ## Data Understanding
+
+Data yang kita akan lakukan modeling terdiri dari 26 variabel:
+* car_ID
+* symboling
+* CarName
+* fueltype
+* aspiration
+doornumber
+carbody
+drivewheel
+enginelocation
+wheelbase
+carlength
+carwidth
+carheight
+curbweight
+enginetype
+cylindernumber
+enginesize
+fuelsystem
+boreratio
+stroke
+compressionratio
+horsepower
+peakrpm
+citympg
+highwaympg
+price
 
 ---
 
