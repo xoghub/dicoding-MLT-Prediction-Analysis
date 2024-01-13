@@ -56,22 +56,52 @@ Ada beberapa informasi yang akan kita gunakan, yaitu variable price, dimensi bod
 
 ---
 
-* Penjelasan tentang data preparation
-* alasan mengapa harus dilakaukan
+Pada data preparation, kami melakukan beberapa hal, yaitu 
+* Dropping Data yang diluar IQR
+
+Dropping dilakukan untuk menangani data yang bersifat pecicilan yang diluar data lainnya. Hal ini dilakukan untuk mengurangi kesalahan pada 
+
+* One-Hot Encoder
+
+One-Hot Encoder dilakukan untuk mempermudah kalkulasi pada algoritma pada kategorikal feature.
+
+* PCA (Dimensi Reduksi)
+
+Pada saat melakukan korelasi matriks terdapat beberapa variabel yang memiliki korelasi yang tinggi dan kami melakukan reduksi jumlah feature tersebut untuk membuat komputasi lebih efisien. 
+
+* Standar Scaller
+
+Kami melakukan normalisasi dengan standar scaller untuk membuat semua data dengan numerikal feature tersebut agar mengikuti distribusi normal.
 
 ## Modeling
 
 ---
 
-* modelnya apa
-* kelebihan dan kekurangan model yang ada
-* improvement
-* model yang terbaik
+Model pada proyek ini terdapat 3, yaitu Linear Regression, Random Forest Regression, dan Ada Boosting. 
+### Kelebihan dan Kekurangan Model
+* Linear Regression
+Kelebihan : Simple
+Kekurangan : Tidak bagus untuk complex data
+* Random Forest Regression
+Kelebihan : Cocok untuk complex data
+Kekurangan : Model terbilang cukup complex
+* Ada Boosting
+Kelebihan : cocok untuk complex data
+Kekurangan : Model terbilang cukup complex
+
+### Model yang Terbaik
+
+Model yang terbaik sejauh ini adalah Random Forest Regression dengan Training Loss sebesar : 
+
+![random_forest_regression_loss]('')
 
 ## Evaluation
 
 ---
 
+Hasil akhir menunjukan bahwa random forest regression memiliki loss yang cukup rendah dan akurasi yang cukup tinggi untuk regressi pada dataset ini.
+
+![evaluasi_algoritma_loss]('')
 
 
 
