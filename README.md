@@ -52,6 +52,26 @@ Ada beberapa informasi yang akan kita gunakan, yaitu variable price, dimensi bod
 
 ### Visualisasi data yang ada
 
+**Rata-rata price variable relatif kepada setiap feature kategori**
+![mean_price_terhadap_feature_fueltype](https://drive.google.com/uc?export=view&id=17TM6FiJQ5-pv0U0IWKEh0Laq1BlaOvLZ)
+
+![mean_price_terhadap_feature_fuelsystem](https://drive.google.com/uc?export=view&id=1WePW3KJEpe5U3tEFpwg2V9UZqHFD6pWr)
+
+![mean_price_terhadap_feature_enginetype](https://drive.google.com/uc?export=view&id=1pmSjqSMnkiucHKnO8hbFIJIFKL3KbN6p)
+
+![mean_price_terhadap_feature_enginelocation](https://drive.google.com/uc?export=view&id=18-RYahSJFTCo8I8eYjXEaMJJNOLI0idg)
+
+![mean_price_terhadap_feature_drivewheel](https://drive.google.com/uc?export=view&id=1S-WixJZ8_7stNSVI0PK6i70odp4ZccwV)
+
+![mean_price_terhadap_feature_cylinderumber](https://drive.google.com/uc?export=view&id=1xdHT_bRtmYO2R86odiZc8JAseuSJliti)
+
+![mean_price_terhadap_feature_carbody](https://drive.google.com/uc?export=view&id=1ey4VuPPVK87vzUD8SylrcBVIsjYGO6ir)
+
+![mean_price_terhadap_feature_aspiration](https://drive.google.com/uc?export=view&id=1TBULeit0Goc07Iv3D6Nt528aRokMNLzI)
+
+**Correlation Matrix Between Price with rest of the fearture**
+![korelasi_price_terhadap_feature_lainnya](https://drive.google.com/uc?export=view&id=1--OGIhcyxz6Ym_NqVA6SQ-vE-zZgJfaN)
+
 ## Data Preparation
 
 ---
@@ -101,7 +121,6 @@ Model yang terbaik sejauh ini adalah Random Forest Regression dengan Training Lo
 
 Hasil akhir menunjukan bahwa random forest regression memiliki loss yang cukup rendah dan akurasi yang cukup tinggi untuk regressi pada dataset ini.
 
-![evaluasi_algoritma_loss]('')
-
+![evaluasi_algoritma_loss](https://drive.google.com/uc?export=view&id=13dU4BpgBFykrwdtqTQW9qVRP3pFuB0je)
 
 
