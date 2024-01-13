@@ -55,8 +55,6 @@ Ada beberapa informasi yang akan kita gunakan, yaitu variable price, dimensi bod
 **Rata-rata price variable relatif kepada setiap feature kategori**
 ![mean_price_terhadap_feature_fueltype](https://drive.google.com/uc?export=view&id=17TM6FiJQ5-pv0U0IWKEh0Laq1BlaOvLZ)
 
-![mean_price_terhadap_feature_fuelsystem](https://drive.google.com/uc?export=view&id=1WePW3KJEpe5U3tEFpwg2V9UZqHFD6pWr)
-
 ![mean_price_terhadap_feature_enginetype](https://drive.google.com/uc?export=view&id=1pmSjqSMnkiucHKnO8hbFIJIFKL3KbN6p)
 
 ![mean_price_terhadap_feature_enginelocation](https://drive.google.com/uc?export=view&id=18-RYahSJFTCo8I8eYjXEaMJJNOLI0idg)
@@ -111,9 +109,9 @@ Kekurangan : Model terbilang cukup complex
 
 ### Model yang Terbaik
 
-Model yang terbaik sejauh ini adalah Random Forest Regression dengan Training Loss sebesar : 
+Model yang terbaik sejauh ini adalah Random Forest Regression dengan training loss yang cukup kecil, seperti yang ada dibawah ini. 
 
-![random_forest_regression_loss]('')
+![random_forest_regression_loss](https://drive.google.com/uc?export=view&id=1xhyL4azWIWNyFA2_zpCQDWxaiIjaEcCl)
 
 ## Evaluation
 
